@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-  "execute_sql_#{SELECT MAX(gpa) FROM students DESC LIMIT 1;}"
+   puts "execute_sql_#{SELECT MAX(gpa) FROM students DESC LIMIT 1;}"
 end
 
 def lowest_student_gpa
